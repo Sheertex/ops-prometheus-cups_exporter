@@ -1,3 +1,19 @@
+# Sheertex Instructions
+
+1. Setup gcloud auth:
+
+    gcloud auth login
+    gcloud auth configure-docker
+
+2. Build with:
+
+    ./docker-build
+
+3. Deploy with:
+
+    ./deploy [dev|prod]
+
+
 # Prometheus CUPS Exporter
 
 This exporter provides prometheus metrics for cups by utilizing pycups.
